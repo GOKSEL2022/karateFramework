@@ -1,7 +1,6 @@
-Feature:Get_request
-  @api
-  Scenario:Get_request_assertion
+Feature:
+  Scenario:
     Given url 'https://jsonplaceholder.typicode.com'
     And path "/posts/44"
-    When method GET
+    And method delete
     Then status 200
