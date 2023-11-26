@@ -1,5 +1,5 @@
-Feature: 
-  Scenario: 
+Feature: petstore_post_request
+  Scenario: petstore.swagger_post_request
     Given url 'https://petstore.swagger.io/v2/store/order'
     And request
     """
