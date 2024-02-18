@@ -7,4 +7,3 @@ Feature:Get_request
     And  match header Content-Type == 'application/json; charset=utf-8'
     And  match response.userId == 5
     And  assert response.title == 'optio dolor molestias sit'
-    

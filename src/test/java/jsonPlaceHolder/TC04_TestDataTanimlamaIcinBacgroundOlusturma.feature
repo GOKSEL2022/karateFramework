@@ -22,7 +22,7 @@ Feature:Tekrarlar_icin_test_data_tanimlanir
     }
     """
   Scenario: Testini_hazir_data_ile_yapar
-    Given url baseUrl
+    Given url "https://jsonplaceholder.typicode.com"
     When path pathParams
     And request requestBody
     And method put
